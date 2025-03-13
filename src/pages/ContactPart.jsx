@@ -44,7 +44,7 @@ const ContactPart = () => {
   return (
     <>
       <div className="flex items-center justify-center min-h-screen bg-black">
-        <div className="bg-white p-6 rounded-lg shadow-lg w-96">
+        <div className="bg-white p-6 rounded-lg shadow-lg w-80 md:w-96">
           <h2 className="text-2xl font-bold mb-4 text-center">Contact Us</h2>
           <form onSubmit={onSubmit} className="space-y-4">
             <div>
