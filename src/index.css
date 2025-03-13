@@ -2,5 +2,5 @@
 @import "tailwindcss";
 @theme{
     --font-mas:"Montserrat";
-
+    --background-image-bannerBg: url("/public/WhatsApp Image 2025-03-13 at 23.48.11_254f72ad.jpg")
 }
