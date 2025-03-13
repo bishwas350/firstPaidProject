@@ -5,6 +5,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Rootlayout from './layout/Rootlayout'
 import Home from './pages/Home'
+import ContactPart from './pages/ContactPart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
      <Routes>
       <Route element={<Rootlayout/>}>
       <Route path='/' element={<Home/>} />
+      <Route path='/ContactPart' element={<ContactPart/>} />
       </Route>
      </Routes>
     </>
