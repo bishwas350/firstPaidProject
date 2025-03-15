@@ -7,6 +7,7 @@ import { IoMdClose } from "react-icons/io";
 import 'animate.css';
 import { Link } from 'react-router-dom';
 import { FaSearch } from "react-icons/fa";
+import ParticlesBackground from './ParticlesBackground';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -56,6 +57,7 @@ const Header = () => {
 
             </Flex>
             <div className="hidden lg:block">
+              
               <Flex className={'justify-between items-center'}>
                 <div  className="w-1/3">
                   <a href="/"><span className='text-white '>Sagor on fire</span></a>
